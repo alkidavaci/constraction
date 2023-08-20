@@ -1,7 +1,9 @@
+import './style.css'
+
 const Footer = () => {
   return (
     <footer className="footer">
-        <div className="content has-text-centered" style={{}} >
+        <div className="content" >
           <p>
             © 2023
           </p>
