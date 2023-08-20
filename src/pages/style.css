@@ -1,0 +1,8 @@
+/* Projects.css */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Display 3 cards per row */
+    gap: 20px; /* Gap between cards */
+    padding: 20px; /* Add some padding around the container */
+  }
+  
