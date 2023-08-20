@@ -1,0 +1,12 @@
+/* Home.css */
+.section {
+    min-width: 100vh; /* Ensure the section takes at least the viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */ 
+    background-color: #83b497;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  

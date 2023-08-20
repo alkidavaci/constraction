@@ -1,3 +1,4 @@
+import './style.css';
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
         <div className="columns is-centered">
           <div className="column is-6">
             <div className="box">
-              <h2 className="title has-text-centered">Klodis</h2>
+              <h2 className="title has-text-centered">Klodi's</h2>
             </div>
           </div>
         </div>
