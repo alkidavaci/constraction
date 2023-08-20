@@ -1,0 +1,31 @@
+/* About.css */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.about-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-contact-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.about-contact-link:hover {
+  color: #0056b3;
+}
