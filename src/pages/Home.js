@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
+import ProjectCard from'../components/ProjectCard'
 
 const Home = () => {
   return (
-    <div>home page</div>
+    <div>
+      <ProjectCard />
+    </div>
   );
 };
 
