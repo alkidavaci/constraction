@@ -1,0 +1,31 @@
+/* Navbar.css */
+.navbar {
+     min-width: 100vh; /* Ensure the section takes at least the viewport height */
+    display: flex;
+    justify-content: center; /* Horizontally center the content */ 
+    background-color:rgb(63, 106, 95);
+    color: white;
+  }
+  
+  .navbar-item {
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  
+  .navbar-item-box {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 187, 172);
+    border: 1px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-item-box:hover {
+    background-color: #beb7b7;
+    color: #fff;
+  }
+  

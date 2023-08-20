@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Note the use of Routes
 
 import { About, Contact, Home, Projects } from './pages';
-import { NotFound, Footer, Header } from './components';
+import { Footer, Header, Nav, NotFound} from './components';
 
 function App() {
   return (
     <Router>
       <Header />
+      <Nav />
 
       <Routes> {/* Use the Routes container */}
         <Route path="/" element={<Home />} /> {/* Note the 'element' prop */}
