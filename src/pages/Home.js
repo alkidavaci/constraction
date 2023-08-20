@@ -1,8 +1,8 @@
 import ProjectCard from'../components/ProjectCard'
-
+import './Home.css'
 const Home = () => {
   return (
-    <div>
+    <div className='container-home'>
       <ProjectCard />
     </div>
   );

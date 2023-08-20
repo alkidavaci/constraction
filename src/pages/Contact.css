@@ -1,0 +1,38 @@
+/* Contact.css */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info strong {
+  font-weight: 600;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #0056b3;
+}
